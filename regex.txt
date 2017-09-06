@@ -1,1 +1,6 @@
-[^,\s]
+Regex 0
+[^,\s]+
+Regex 1
+(?<=is) [A-z]+|(?<=am) [A-z]+
+Regex 2
+(?<=with) [A-z]+\.[A-z]+\.[A-z]+\. | ^\s|(for here)|(to go)|(?<=with) [A-z]+\.[A-z]+\.|(?<=with) [A-z]+
